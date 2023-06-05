@@ -1,0 +1,10 @@
+from random import *
+class Dice:
+    def __init__(self):
+        dice1 = randrange(1, 7)
+        dice2 = randrange(1, 7)
+        self.dice = [dice1, dice2]
+
+    def roll_dice(self):
+        return self.dice
+    
